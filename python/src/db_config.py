@@ -2,7 +2,7 @@ import os
 import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-def get_db_url:
+def get_db_ur:
   port = os.environ.get('PORT')
   if port:
     url = 'postgres://3ab0d26c3d268f:eIJAAuElYvSxPK-vmSdXG9Hjv8@ec2-502-11-713-352.compute-1.amazonaws.com:5432/4d10f543c30946'
